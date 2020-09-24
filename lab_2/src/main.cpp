@@ -16,6 +16,8 @@ void loop()
     {
         Serial.print("Please enter a number from 0 to 255: ");
         intensity = Serial.parseInt();
+        Serial.print("\nGot number: ");
+        Serial.println(intensity, DEC);
         analogWrite(led, intensity);
     }
 }
