@@ -1,4 +1,5 @@
 \documentclass[12pt,titlepage]{article}
+\usepackage[toc,page]{appendix}
 \usepackage[linktoc=all]{hyperref}
 \usepackage{listings}
 \usepackage{graphicx}
@@ -36,11 +37,6 @@ The point of this lab was to introduce us to the Arduino toolkit and allow anyon
   \includegraphics[width=5.0in]{figure_1_1.png}
   \caption{Basic LED Circuit Setup}\label{fig:lab_2}
 \end{figure}
-\subsection{Software}
-\begin{minipage}{\linewidth}
-  \lstinputlisting[caption={Lab 2 Code}, captionpos=b, label={lst:lab_2},
-language=C++]{../lab_2/src/main.cpp}
-\end{minipage}
 \newpage
 \section{Week 2 Lab}
 \subsection{Discussion}
@@ -56,10 +52,17 @@ The value of the register was found using equation~\ref{eq:ocr3a}, where p is th
 \end{figure}
 \subsection{Hardware}
 Figure~\ref{fig:lab_3} shows the setup of the circuit. The setup of the hardware was very similar to the previous lab, but this time there are four LEDs and care was taken to connect to them to the correct pin corresponding to the timer we want to use for it.
-\subsection{Software}
-  \lstinputlisting[caption={Lab 3 Code}, captionpos=b label={lst:lab_3}, language=C++]{../lab_3/src/main.cpp}
+\newpage
+\begin{appendices}
+  \section{Program Code}
+  \subsection{Week 1 Lab Code}
+  \begin{minipage}{\linewidth}
+    \lstinputlisting[caption={Lab 2 Code}, captionpos=b, label={lst:lab_2}, language=C++]{../lab_2/src/main.cpp}
+  \end{minipage} 
+  \subsection{Week 2 Lab Code}
+    \lstinputlisting[caption={Lab 3 Code}, captionpos=b label={lst:lab_3}, language=C++]{../lab_3/src/main.cpp}
+\end{appendices}
 \end{document}
-
 %%% Local Variables:
 %%% mode: latex
 %%% TeX-master: t

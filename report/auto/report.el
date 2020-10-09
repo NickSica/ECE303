@@ -4,11 +4,12 @@
    (TeX-add-to-alist 'LaTeX-provided-class-options
                      '(("article" "12pt" "titlepage")))
    (TeX-add-to-alist 'LaTeX-provided-package-options
-                     '(("hyperref" "linktoc=all")))
+                     '(("appendix" "toc" "page") ("hyperref" "linktoc=all")))
    (TeX-run-style-hooks
     "latex2e"
     "article"
     "art12"
+    "appendix"
     "hyperref"
     "listings"
     "graphicx"
