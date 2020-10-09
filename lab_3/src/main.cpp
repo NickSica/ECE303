@@ -4,7 +4,7 @@ const int leds[] = {11, 5, 6, 44};
 long password;
 uint8_t correct_nums = 0b0000;
 uint8_t num_tries = 0;
-uint16_t starting_freq = 31248;
+uint16_t starting_freq = 31248;   // = (16 * 10^6) / (1024 * 0.5) - 1
 bool locked_out = false;
 
 void setup() 
@@ -21,7 +21,7 @@ void setup()
     TCCR1B = 0;
     TIMSK1 = 0;
     TCNT1  = 0;
-    OCR1A  = starting_freq;                                    // = (16 * 10^6) / (1024 * 100) - 1
+    OCR1A  = starting_freq;
     TCCR1B |= (1 << WGM12);
     TCCR1B |= (1 << CS12) | (0 << CS11) | (1 << CS10); // 1024 prescalar
     TIMSK1 |= (1 << OCIE1A);
@@ -31,7 +31,7 @@ void setup()
     TCCR3B = 0;
     TIMSK3 = 0;
     TCNT3  = 0;
-    OCR3A  = starting_freq;                                    // = (16 * 10^6) / (1024 * 4) - 1
+    OCR3A  = starting_freq;
     TCCR3B |= (1 << WGM32);
     TCCR3B |= (1 << CS32) | (0 << CS31) | (1 << CS30); // 1024 prescalar
     TIMSK3 |= (1 << OCIE3A);
@@ -41,7 +41,7 @@ void setup()
     TCCR4B = 0;
     TIMSK4 = 0;
     TCNT4  = 0;
-    OCR4A  = starting_freq;                                    // = (16 * 10^6) / (1024 * 100) - 1
+    OCR4A  = starting_freq;
     TCCR4B |= (1 << WGM42);
     TCCR4B |= (1 << CS42) | (0 << CS41) | (1 << CS40); // 1024 prescalar
     TIMSK4 |= (1 << OCIE4A);
@@ -51,7 +51,7 @@ void setup()
     TCCR5B  = 0;
     TIMSK5  = 0;
     TCNT5   = 0;
-    OCR5A   = starting_freq;                                   // = (16 * 10^6) / (1024 * 1) - 1
+    OCR5A   = starting_freq;
     TCCR5B |= (1 << WGM52);
     TCCR5B |= (1 << CS52) | (0 << CS51) | (1 << CS50); // 1024 prescalar
     TIMSK5 |= (1 << OCIE5A);
