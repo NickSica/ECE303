@@ -5,6 +5,8 @@ int led = 6;
 void setup() 
 {
     pinMode(led, OUTPUT);
+    pinMode(A0, INPUT);
+    pinMode(A1, INPUT);
 
     noInterrupts();
     // Setup fast PWM timer 4 channel A pin 6
@@ -18,7 +20,6 @@ void setup()
     TCCR4A |= (1 << COM4A1);
     TCCR4B |= (1 << WGM43);
     TCCR4B |= (0 << CS41) | (1 << CS40);
-    //TIMSK4 |= (1 << OCIE4A);
     
     Serial.begin(9600);
     interrupts();

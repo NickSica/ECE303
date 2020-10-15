@@ -99,6 +99,10 @@ Duty Cycle, LED Resistor Voltage, Photocell Resistor Voltage
 2.90
 2.20
 
+
+
+
+
 BLUE
 Duty Cycle, LED Resistor Voltage, Photocell Resistor Voltage
 5
