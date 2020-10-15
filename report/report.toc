@@ -1,9 +1,13 @@
-\contentsline {section}{\numberline {1}Week 1 Lab}{2}{section.1}%
+\contentsline {section}{\numberline {1}Lab 2}{2}{section.1}%
 \contentsline {subsection}{\numberline {1.1}Discussion}{2}{subsection.1.1}%
-\contentsline {section}{\numberline {2}Week 2 Lab}{3}{section.2}%
+\contentsline {section}{\numberline {2}Lab 3}{3}{section.2}%
 \contentsline {subsection}{\numberline {2.1}Discussion}{3}{subsection.2.1}%
 \contentsline {subsection}{\numberline {2.2}Hardware}{4}{subsection.2.2}%
-\contentsline {section}{Appendices}{5}{section*.2}%
-\contentsline {section}{\numberline {A}Program Code}{5}{appendix.a.A}%
-\contentsline {subsection}{\numberline {A.1}Week 1 Lab Code}{5}{subsection.a.A.1}%
-\contentsline {subsection}{\numberline {A.2}Week 2 Lab Code}{5}{subsection.a.A.2}%
+\contentsline {section}{\numberline {3}Lab 4}{5}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Discussion}{5}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Hardware}{8}{subsection.3.2}%
+\contentsline {section}{Appendices}{9}{section*.2}%
+\contentsline {section}{\numberline {A}Program Code}{9}{appendix.a.A}%
+\contentsline {subsection}{\numberline {A.1}Lab 2 Code}{9}{subsection.a.A.1}%
+\contentsline {subsection}{\numberline {A.2}Lab 3 Code}{9}{subsection.a.A.2}%
+\contentsline {subsection}{\numberline {A.3}Lab 4 Code}{13}{subsection.a.A.3}%
