@@ -18,7 +18,7 @@
   identifierstyle=\color{blue},
   stringstyle=\color{orange},
 }
-\lstset{escapechar=@, style=cppstyle, linewidth=6.5in}
+\lstset{escapechar=@, style=cppstyle, linewidth=\linewidth}
 
 \begin{document}
 \title{ECE 303 Lab Technical Memos}
@@ -108,12 +108,12 @@ for the photocell.
 The voltage of the LED and photocell were found by using Kirchoff's Voltage law and subtracting the voltage
 across the respective resistor from 5V. Lastly, the currents were found using the previous values found for
 voltage and resistance and applying Ohm's Law. An error in the values read from pin A0 was introduced due to
-the fact that we were reading it from a PWM source. Figure~\ref{fig:duty_cycle_led_circuit_current} shows the
+the fact that we were reading it from a PWM source. Figure~\ref{fig:duty_cycle_led_circuit_curr} shows the
 duty cycle versus LED circuit current which is what you'd expect, a constant value after it gets up and
 running. Figure~\ref{fig:duty_cycle_led_res} shows the duty cycle versus the LED resistance which is a
 constant value due to the voltage applied not changing. Figure~\ref{fig:duty_cycle_photo_curr}
 shows duty cycle versus photocell current which is increasing due to the resistance in the photocell
-decreasing as the LED strength increases. Figure~\ref{fig:duty_cycle_photo_res} shows dury cycle versus
+decreasing as the LED strength increases. Figure~\ref{fig:duty_cycle_photo_res} shows duty cycle versus
 photocell resistance which is decreasing due to the LED growing in strength. Finally,
 Figure~\ref{fig:photo_res_led_curr} which shows photocell resistance versus LED current which is the most
 interesting because it is fairly constant until it suddenly dips.
