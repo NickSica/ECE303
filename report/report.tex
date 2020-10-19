@@ -29,7 +29,7 @@
 \tableofcontents
 \newpage
 
-\section{Lab 2}
+\section{Lab 1}
 \subsection{Discussion}
 The point of this lab was to introduce us to the Arduino toolkit and allow anyone who is new to the platform
 time to adjust and get familiar with the tools presented to them. The lab was straightforward, connect an LED
@@ -38,11 +38,11 @@ The output is as expected, with the intensity of the light changing based off th
 monitor, zero being off and 255 being full brightness.
 \begin{figure}[!htb]
   \centering
-  \includegraphics[width=5.0in]{lab_2/schematic.png}
-  \caption{Basic LED Circuit Setup}\label{fig:lab_2}
+  \includegraphics[width=5.0in]{lab_1/schematic.png}
+  \caption{Basic LED Circuit Setup}\label{fig:lab_1}
 \end{figure}
 \newpage
-\section{Lab 3}
+\section{Lab 2}
 \subsection{Discussion}
 This lab was used to get us acquainted with timers and learn not only how to set up the correct bit values,
 but also how to use them efficiently. A lot of the time was spent debugging the bit values that the different
@@ -57,15 +57,15 @@ The value of the register was found using equation~\ref{eq:ocr3a}, where p is th
 wrong guess, it was divided by two to make it go faster.
 \begin{figure}[!htb]
   \centering
-  \includegraphics[width=3.25in]{lab_3/schematic.png}
-  \caption{Codebreaker Circuit Setup}\label{fig:lab_3}
+  \includegraphics[width=3.25in]{lab_2/schematic.png}
+  \caption{Codebreaker Circuit Setup}\label{fig:lab_2}
 \end{figure}
 \subsection{Hardware}
-Figure~\ref{fig:lab_3} shows the setup of the circuit. The setup of the hardware was very similar to
+Figure~\ref{fig:lab_2} shows the setup of the circuit. The setup of the hardware was very similar to
 the previous lab, but this time there are four LEDs and care was taken to connect to them to the correct
 pin corresponding to the timer we want to use for it.
 \newpage
-\section{Lab 4}
+\section{Lab 3}
 \subsection{Discussion}
 This lab was used to get us to get more comfortable with timers in a different way as well as introduce us
 to a photocell. This time around not a lot of time was spent getting the correct timer values, we just
@@ -82,27 +82,27 @@ for the photocell.
 \end{equation}
 \begin{figure}[!htb]
     \centering
-    \includegraphics[width=5in]{lab_4/duty_cycle_led_circuit_curr.png}
+    \includegraphics[width=5in]{lab_3/duty_cycle_led_circuit_curr.png}
     \caption{Duty Cycle Versus LED Circuit Current}\label{fig:duty_cycle_led_circuit_curr}
 \end{figure}
 \begin{figure}[!htb]
     \centering
-    \includegraphics[width=5in]{lab_4/duty_cycle_led_res.png}
+    \includegraphics[width=5in]{lab_3/duty_cycle_led_res.png}
     \caption{Duty Cycle Versus LED Resistance}\label{fig:duty_cycle_led_res}
 \end{figure}
 \begin{figure}[!htb]
     \centering
-    \includegraphics[width=5in]{lab_4/duty_cycle_photo_curr.png}
+    \includegraphics[width=5in]{lab_3/duty_cycle_photo_curr.png}
     \caption{Duty Cycle Versus Photocell Current}\label{fig:duty_cycle_photo_curr}
 \end{figure}
 \begin{figure}[!htb]
   \centering
-  \includegraphics[width=5in]{lab_4/duty_cycle_photo_res.png}
+  \includegraphics[width=5in]{lab_3/duty_cycle_photo_res.png}
   \caption{Duty Cycle Versus Photocell Resistance}\label{fig:duty_cycle_photo_res}
 \end{figure}
 \begin{figure}[!htb]
     \centering
-    \includegraphics[width=5in]{lab_4/photo_res_led_curr.png}
+    \includegraphics[width=5in]{lab_3/photo_res_led_curr.png}
     \caption{Photocell Resistance Versus LED Current}\label{fig:photo_res_led_curr}
 \end{figure}
 The voltage of the LED and photocell were found by using Kirchoff's Voltage law and subtracting the voltage
@@ -118,26 +118,26 @@ photocell resistance which is decreasing due to the LED growing in strength. Fin
 Figure~\ref{fig:photo_res_led_curr} which shows photocell resistance versus LED current which is the most
 interesting because it is fairly constant until it suddenly dips.
 \subsection{Hardware}
-Figure~\ref{fig:lab_4_schem} shows the setup of the circuit. The setup of the hardware was very simple, but
+Figure~\ref{fig:lab_3_schem} shows the setup of the circuit. The setup of the hardware was very simple, but
 could've been improved with a housing that blocks out light. You could also get different results depending
 on the distance the photocell was from the LED, which could lead to skewed results when swapping the LED out
 for another color.
 \begin{figure}[!htb]
     \centering
-    \includegraphics[width=3.25in]{lab_4/schematic.png}
-    \caption{Photocell and LED Circuit Setup}\label{fig:lab_4_schem}
+    \includegraphics[width=3.25in]{lab_3/schematic.png}
+    \caption{Photocell and LED Circuit Setup}\label{fig:lab_3_schem}
 \end{figure}
 \clearpage
 \begin{appendices}
   \section{Program Code}
-  \subsection{Lab 2 Code}
+  \subsection{Lab 1 Code}
   \begin{minipage}{\linewidth}
-    \lstinputlisting[caption={Lab 2 Code}, captionpos=b, label={lst:lab_2}, language=C++]{../lab_2/src/main.cpp}
+    \lstinputlisting[caption={Lab 1 Code}, captionpos=b, label={lst:lab_1}, language=C++]{../lab_1/src/main.cpp}
   \end{minipage} 
+  \subsection{Lab 2 Code}
+    \lstinputlisting[caption={Lab 2 Code}, captionpos=b label={lst:lab_2}, language=C++]{../lab_2/src/main.cpp}
   \subsection{Lab 3 Code}
     \lstinputlisting[caption={Lab 3 Code}, captionpos=b label={lst:lab_3}, language=C++]{../lab_3/src/main.cpp}
-  \subsection{Lab 4 Code}
-    \lstinputlisting[caption={Lab 4 Code}, captionpos=b label={lst:lab_4}, language=C++]{../lab_4/src/main.cpp}
 \end{appendices}
 \end{document}
 %%% Local Variables:
