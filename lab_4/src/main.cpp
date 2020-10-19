@@ -1,38 +1,37 @@
 #include <Arduino.h>
+#include <string.h>
 
-int led = 6;
+int led = 13;
+int start_run = 0;
+int duty_cycle = 5;
 
 void setup() 
 {
     pinMode(led, OUTPUT);
     pinMode(A0, INPUT);
     pinMode(A1, INPUT);
-
-    noInterrupts();
-    // Setup fast PWM timer 4 channel A pin 6
-    TCCR4A = 0;
-    TCCR4B = 0;
-    TIMSK4 = 0;
-    TCNT4  = 0;
-    ICR4   = 12500;
-    OCR4A  = 625;
-    TCCR4A |= (1 << WGM41);
-    TCCR4A |= (1 << COM4A1);
-    TCCR4B |= (1 << WGM43);
-    TCCR4B |= (0 << CS41) | (1 << CS40);
-    
+    analogWrite(led, LOW);    
     Serial.begin(9600);
-    interrupts();
 }
 
 void loop() 
 {
-    if(OCR4A <= 12500)
+    if(Serial.available() > 0)
     {
-        delay(2000);
+        String ser = Serial.readString();
+        start_run = 1;
+        if(Serial.readString() == "start")
+        {
+            start_run = 1;
+            analogWrite(led, duty_cycle);
+            duty_cycle += 5;
+        }
+    }
+    
+    if(start_run && duty_cycle <= 100)
+    {
+        delay(3000);
         Serial.println("Duty Cycle, LED Resistor Voltage, Photocell Resistor Voltage");
-
-        int duty_cycle = (int)((float)OCR4A / (float)ICR4 * 100);
         Serial.println(duty_cycle);
 
         int led_resistor_value = analogRead(A0);
@@ -43,6 +42,13 @@ void loop()
         float photo_resistor_voltage = (float)photo_resistor_value * (5.0 / 1023.0);
         Serial.println(photo_resistor_voltage);
         Serial.println();
-        OCR4A += 625;
+        duty_cycle += 5;
+        analogWrite(led, 255 * ((float)duty_cycle / 100.0));
+    }
+    else if(start_run)
+    {
+        Serial.println("done");
+        duty_cycle = 0;
+        start_run = 0;
     }
 }

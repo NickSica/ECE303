@@ -1,6 +1,5 @@
 #include <Arduino.h>
 #include <string.h>
-#include <stdio.h>
 
 int led = 13;
 int start_run = 0;
