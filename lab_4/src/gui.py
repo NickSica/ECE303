@@ -13,13 +13,6 @@ photocell_currents = []
 photocell_resistances = []
 
 def main():
-    gui = Tk()
-    gui.wm_title("Process Control")
-    start_btn = Button(gui, text="Start", command=run_process)
-    start_btn.pack(anchor = W)
-    gui.mainloop()
-
-def run_process():
     global duty_cycles, led_voltages, led_currents, photocell_voltages, photocell_currents, photocell_resistances
     duty_cycles.clear()
     led_voltages.clear()
@@ -51,22 +44,29 @@ def run_process():
 
 def plot_graphs():
     global duty_cycles, led_voltages, led_currents, photocell_voltages, photocell_currents, photocell_resistances
-    led_resistance = 5000.0 / max(led_voltages) - 1000.0
+    led_resistance = 5.0 / max(led_voltages) - 1.0
     led_voltages = [ 5.0 - voltage for voltage in led_voltages ]
     led_currents = [ voltage / led_resistance for voltage in led_voltages ]
-    photocell_resistances = [ 50000.0 / voltage - 10000.0 for voltage in photocell_voltages ]
+    photocell_resistances = [ 50.0 / voltage - 10.0 for voltage in photocell_voltages ]
     photocell_voltages = [ 5.0 - voltage for voltage in photocell_voltages]
     photocell_currents = [ voltage / resistance for voltage, resistance in zip_longest(photocell_voltages, photocell_resistances) ]
 
     plt.plot(duty_cycles, led_currents, '--g', linewidth=2)
+    plt.xlabel("Duty Cycle (%)")
+    plt.ylabel("LED Circuit Current (mA)")
     plt.figure()
     plt.plot(duty_cycles, led_voltages, '--r', linewidth=2)
+    plt.ylabel("LED Voltage (V)")
     plt.figure()
     plt.plot(duty_cycles, photocell_voltages, '--b', linewidth=2)
+    plt.ylabel("Photocell Voltage (V)")
     plt.figure()
     plt.plot(duty_cycles, photocell_currents, '--p', linewidth=2)
+    plt.ylabel("Photocell Current (mA)")
     plt.figure()
     plt.plot(led_currents, photocell_resistances, '--y', linewidth=2)
+    plt.xlabel("LED Current (mA)")
+    plt.ylabel("Photocell Resistance (kOhm)")
     plt.show()
 
 if __name__ == "__main__":
