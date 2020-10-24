@@ -127,17 +127,169 @@ for another color.
     \includegraphics[width=3.25in]{lab_3/schematic.png}
     \caption{Photocell and LED Circuit Setup}\label{fig:lab_3_schem}
 \end{figure}
+\section{Lab 4}
+\subsection{Discussion}
+This lab was used to introduce us to using Python or MATLAB in sync with the arduino and teach us how to connect the two and gather data automatically.
+This time around not a lot of time was spent getting the correct timer values, we just had to make sure that they represented the correct duty cycle.
+The results for this lab, like the last one, were a bit worse due to lights coming from my computer. I covered it with a box, but there was bound to be some leakage.
+It would have been better if I could isolate my circuit in a container and have my photocell the perfect distance from the LED. The same basic idea was used as the
+last lab except this time there was serial communication through Python and all the graphs were made using matplotlib.
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=5in]{lab_4/duty_cycle_led_circuit_curr.png}
+    \caption{White Duty Cycle Versus LED Circuit Current}\label{fig:white_lab_4_duty_cycle_led_circuit_curr}
+\end{figure}
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=5in]{lab_4/duty_cycle_led_res.png}
+    \caption{White Duty Cycle Versus LED Resistance}\label{fig:white_lab_4_duty_cycle_led_res}
+\end{figure}
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=5in]{lab_4/duty_cycle_photo_curr.png}
+    \caption{White Duty Cycle Versus Photocell Current}\label{fig:white_lab_4_duty_cycle_photo_curr}
+\end{figure}
+\begin{figure}[!htb]
+  \centering
+  \includegraphics[width=5in]{lab_4/duty_cycle_photo_res.png}
+  \caption{White Duty Cycle Versus Photocell Resistance}\label{fig:white_lab_4_duty_cycle_photo_res}
+\end{figure}
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=5in]{lab_4/photo_res_led_curr.png}
+    \caption{White Photocell Resistance Versus LED Current}\label{fig:white_lab_4_photo_res_led_curr}
+\end{figure}
+\begin{figure}[!htb]
+  \centering
+  \includegraphics[width=5in]{lab_4/duty_cycle_led_circuit_curr.png}
+  \caption{Red Duty Cycle Versus LED Circuit Current}
+\end{figure}
+\begin{figure}[!htb]
+  \centering
+  \includegraphics[width=5in]{lab_4/duty_cycle_led_res.png}
+  \caption{Red Duty Cycle Versus LED Resistance}
+\end{figure}
+\begin{figure}[!htb]
+  \centering
+  \includegraphics[width=5in]{lab_4/duty_cycle_photo_curr.png}
+  \caption{Red Duty Cycle Versus Photocell Current}
+\end{figure}
+\begin{figure}[!htb]
+\centering
+\includegraphics[width=5in]{lab_4/duty_cycle_photo_res.png}
+\caption{Red Duty Cycle Versus Photocell Resistance}
+\end{figure}
+\begin{figure}[!htb]
+  \centering
+  \includegraphics[width=5in]{lab_4/photo_res_led_curr.png}
+  \caption{Red Photocell Resistance Versus LED Current}
+\end{figure}
+\begin{figure}[!htb]
+  \centering
+  \includegraphics[width=5in]{lab_4/duty_cycle_led_circuit_curr.png}
+  \caption{Yellow Duty Cycle Versus LED Circuit Current}
+\end{figure}
+\begin{figure}[!htb]
+  \centering
+  \includegraphics[width=5in]{lab_4/duty_cycle_led_res.png}
+  \caption{Yellow Duty Cycle Versus LED Resistance}
+\end{figure}
+\begin{figure}[!htb]
+  \centering
+  \includegraphics[width=5in]{lab_4/duty_cycle_photo_curr.png}
+  \caption{Yellow Duty Cycle Versus Photocell Current}
+\end{figure}
+\begin{figure}[!htb]
+\centering
+\includegraphics[width=5in]{lab_4/duty_cycle_photo_res.png}
+\caption{Yellow Duty Cycle Versus Photocell Resistance}
+\end{figure}
+\begin{figure}[!htb]
+  \centering
+  \includegraphics[width=5in]{lab_4/photo_res_led_curr.png}
+  \caption{Yellow Photocell Resistance Versus LED Current}
+\end{figure}
+\begin{figure}[!htb]
+  \centering
+  \includegraphics[width=5in]{lab_4/duty_cycle_led_circuit_curr.png}
+  \caption{Blue Duty Cycle Versus LED Circuit Current}
+\end{figure}
+\begin{figure}[!htb]
+  \centering
+  \includegraphics[width=5in]{lab_4/duty_cycle_led_res.png}
+  \caption{Blue Duty Cycle Versus LED Resistance}
+\end{figure}
+\begin{figure}[!htb]
+  \centering
+  \includegraphics[width=5in]{lab_4/duty_cycle_photo_curr.png}
+  \caption{Blue Duty Cycle Versus Photocell Current}
+\end{figure}
+\begin{figure}[!htb]
+\centering
+\includegraphics[width=5in]{lab_4/duty_cycle_photo_res.png}
+\caption{Blue Duty Cycle Versus Photocell Resistance}
+\end{figure}
+\begin{figure}[!htb]
+  \centering
+  \includegraphics[width=5in]{lab_4/photo_res_led_curr.png}
+  \caption{Blue Photocell Resistance Versus LED Current}
+\end{figure}
+\begin{figure}[!htb]
+  \centering
+  \includegraphics[width=5in]{lab_4/duty_cycle_led_circuit_curr.png}
+  \caption{Green Duty Cycle Versus LED Circuit Current}
+\end{figure}
+\begin{figure}[!htb]
+  \centering
+  \includegraphics[width=5in]{lab_4/duty_cycle_led_res.png}
+  \caption{Green Duty Cycle Versus LED Resistance}
+\end{figure}
+\begin{figure}[!htb]
+  \centering
+  \includegraphics[width=5in]{lab_4/duty_cycle_photo_curr.png}
+  \caption{Green Duty Cycle Versus Photocell Current}
+\end{figure}
+\begin{figure}[!htb]
+\centering
+\includegraphics[width=5in]{lab_4/duty_cycle_photo_res.png}
+\caption{Green Duty Cycle Versus Photocell Resistance}
+\end{figure}
+\begin{figure}[!htb]
+  \centering
+  \includegraphics[width=5in]{lab_4/photo_res_led_curr.png}
+  \caption{Green Photocell Resistance Versus LED Current}
+\end{figure}
+The values of the voltage, current, and resistance were found using the same method as the last lab. An error in the values read from pin A0 was introduced due to
+the fact that we were reading it from a PWM source. Figure~\ref{fig:white_lab_4_duty_cycle_led_circuit_curr} shows the
+duty cycle versus LED circuit current. You are seeing a finer grain look than last time and even get to see a bit of the PWM in action. Figure~\ref{fig:white_lab_4_duty_cycle_led_res}
+shows the duty cycle versus the LED resistance which is a constant value due to the voltage applied not changing. Figure~\ref{fig:white_lab_4_duty_cycle_photo_curr}
+shows duty cycle versus photocell current which is increasing due to the resistance in the photocell decreasing as the LED strength increases. The part at the end where it dips
+is probably due to the imperfect setup we have and finer granularity than the excel version. Figure~\ref{fig:white_lab_4_duty_cycle_photo_res} shows duty cycle versus photocell
+resistance which is decreasing due to the LED growing in strength. It starting at zero could also be due to the imperfect setup or the photoreistor not picking up the light at a
+low strength. Finally, Figure~\ref{fig:white_lab_4_photo_res_led_curr} which shows photocell resistance versus LED current which is different than last time due to the fact that
+the LED current isn't constant because of the decreased step size causing it to be jumpier.
+\subsection{Hardware}
+Figure~\ref{fig:lab_3_schem} shows the setup of the circuit. The setup of the hardware was very simple, but
+could've been improved with a housing that blocks out light. You could also get different results depending
+on the distance the photocell was from the LED, which could lead to skewed results when swapping the LED out
+for another color.
 \clearpage
 \begin{appendices}
   \section{Program Code}
   \subsection{Lab 1 Code}
   \begin{minipage}{\linewidth}
-    \lstinputlisting[caption={Lab 1 Code}, captionpos=b, label={lst:lab_1}, language=C++]{../lab_1/src/main.cpp}
+    \lstinputlisting[caption={Lab 1 Arduino Code- Blinky}, captionpos=b, label={lst:lab_1_blinky}, language=C++]{../lab_1/src/blinky.cpp}
+  \end{minipage} 
+  \begin{minipage}{\linewidth}
+    \lstinputlisting[caption={Lab 1 Arduino Code- Variable Brightness}, captionpos=b, label={lst:lab_1_variable}, language=C++]{../lab_1/src/main.cpp}
   \end{minipage} 
   \subsection{Lab 2 Code}
-    \lstinputlisting[caption={Lab 2 Code}, captionpos=b label={lst:lab_2}, language=C++]{../lab_2/src/main.cpp}
+    \lstinputlisting[caption={Lab 2 Arduino Code}, captionpos=b label={lst:lab_2}, language=C++]{../lab_2/src/main.cpp}
   \subsection{Lab 3 Code}
-    \lstinputlisting[caption={Lab 3 Code}, captionpos=b label={lst:lab_3}, language=C++]{../lab_3/src/main.cpp}
+    \lstinputlisting[caption={Lab 3 Arduino Code}, captionpos=b label={lst:lab_3}, language=C++]{../lab_3/src/main.cpp}
+  \subsection{Lab 4 Code}
+    \lstinputlisting[caption={Lab 4 Arduino Code}, captionpos=b label={lst:lab_4_arduino}, language=C++]{../lab_4/src/main.cpp}
+    \lstinputlisting[caption={Lab 4 Python Code}, captionpos=b label={lst:lab_4_python}, language=Python]{../lab_4/src/frontend.py}
 \end{appendices}
 \end{document}
 %%% Local Variables:
