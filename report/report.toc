@@ -6,8 +6,12 @@
 \contentsline {section}{\numberline {3}Lab 3}{5}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Discussion}{5}{subsection.3.1}%
 \contentsline {subsection}{\numberline {3.2}Hardware}{8}{subsection.3.2}%
-\contentsline {section}{Appendices}{9}{section*.2}%
-\contentsline {section}{\numberline {A}Program Code}{9}{appendix.a.A}%
-\contentsline {subsection}{\numberline {A.1}Lab 1 Code}{9}{subsection.a.A.1}%
-\contentsline {subsection}{\numberline {A.2}Lab 2 Code}{9}{subsection.a.A.2}%
-\contentsline {subsection}{\numberline {A.3}Lab 3 Code}{13}{subsection.a.A.3}%
+\contentsline {section}{\numberline {4}Lab 4}{9}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Discussion}{9}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Hardware}{19}{subsection.4.2}%
+\contentsline {section}{Appendices}{23}{section*.2}%
+\contentsline {section}{\numberline {A}Program Code}{23}{appendix.a.A}%
+\contentsline {subsection}{\numberline {A.1}Lab 1 Code}{23}{subsection.a.A.1}%
+\contentsline {subsection}{\numberline {A.2}Lab 2 Code}{24}{subsection.a.A.2}%
+\contentsline {subsection}{\numberline {A.3}Lab 3 Code}{27}{subsection.a.A.3}%
+\contentsline {subsection}{\numberline {A.4}Lab 4 Code}{28}{subsection.a.A.4}%
