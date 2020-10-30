@@ -274,6 +274,30 @@ Figure~\ref{fig:lab_3_schem} shows the setup of the circuit. The setup of the ha
 could've been improved with a housing that blocks out light. You could also get different results depending
 on the distance the photocell was from the LED, which could lead to skewed results when swapping the LED out
 for another color.
+\section{Lab 5}
+\subsection{Discussion}
+This lab was used to introduce us to building a graphical user interface, or GUI, to assist with testing to not only make it easier, but also more user friendly. Using the
+base python setup from lab 4, the GUI was built by moving the previous contents of main into its own function and putting all the GUI setup in main.
+Figure~\ref{fig:gui} shows the GUI built with Tkinter with the graphs only appearing after the test is finished.
+There was a concern that the button could be hit multiple times and cause some unknown behavior, so it is disable after the test starts and enables when it finishes. The duty cycle
+label counts up to show the current duty cycle and the annoyance of the GUI freezing due to the blocking nature of the button function is no more as it is multithreaded.
+The results for this lab, like the last one, were a bit worse due to lights coming from my computer. I covered it with a box, but there was bound to be some leakage.
+It would have been better if I could isolate my circuit in a container and have my photocell the perfect distance from the LED.
+\begin{figure}[!htb]
+  \centering
+  \includegraphics[width=5in]{lab_5/gui.png}
+  \caption{GUI After Green LED Test}\label{fig:gui}
+\end{figure}
+The values of the voltage, current, and resistance were found using the same method as lab 2. An error in the values read from pin A0 was introduced due to
+the fact that we were reading it from a PWM source. In the duty cycle versus LED voltage and duty cycle versus LED
+current graphs, there are more samples being taken which is why you can see the general PWM wave. In the duty cycle versus LED voltage graph, there is the expected behavior of
+starting high and decreasing as the photocell resistance decreases. The duty cycle versus current graph shows an increase in current as time goes on which is also to be expected.
+You can see tiny oscillations in the different graphs which is theorized to be caused by the timer behind the analog write not being fast enough to smooth the curves well.
+The duty cycle versus photocell resistance graph mimics the photocell voltage graph because it is what you would get if you divide the current graph from the voltage graph as that's
+how it was generated. Another thing to keep note of is that the graphs have very different scales from one another so while the numbers may seem similar in size, they aren't.
+\subsection{Hardware}
+Figure~\ref{fig:lab_3_schem} shows the setup of the circuit. The setup of the hardware was the same simple desing as the previous labs and again could've been improved with a
+housing that blocks out light. You could also get different results depending on the distance the photocell was from the LED, which could lead to skewed results.
 \begin{appendices}
   \section{Program Code}
   \subsection{Lab 1 Code}
@@ -290,6 +314,9 @@ for another color.
   \subsection{Lab 4 Code}
     \lstinputlisting[caption={Lab 4 Arduino Code}, captionpos=b label={lst:lab_4_arduino}, language=C++]{../lab_4/src/main.cpp}
     \lstinputlisting[caption={Lab 4 Python Code}, captionpos=b label={lst:lab_4_python}, language=Python]{../lab_4/src/frontend.py}
+  \subsection{Lab 5 Code}
+    \lstinputlisting[caption={Lab 5 Arduino Code}, captionpos=b label={lst:lab_5_arduino}, language=C++]{../lab_5/src/main.cpp}
+    \lstinputlisting[caption={Lab 5 Python Code}, captionpos=b label={lst:lab_5_python}, language=Python]{../lab_5/src/frontend.py}
 \end{appendices}
 \end{document}
 %%% Local Variables:
