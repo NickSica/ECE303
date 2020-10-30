@@ -60,7 +60,7 @@ float calcValue(const uint8_t port)
     // Get values and find avg
     for(int i = 0; i < 5; i++)
     {
-        delay(500);
+        delay(1000);
         int val = analogRead(port);
         values[i] = val;
         avg_val += (double)val / 5.0;
