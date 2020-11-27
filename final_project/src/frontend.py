@@ -1,13 +1,11 @@
 import serial
 from tkinter import *
-import matplotlib.pyplot as plt
-from matplotlib.backends.backend_tkagg import (FigureCanvasTkAgg, NavigationToolbar2Tk)
-import numpy as np
 import time
 from itertools import zip_longest
 import threading
 
 gui = Tk()
+access_string = StringVar()
 dist_string = StringVar()
 headlight_string = StringVar()
 speed_string = StringVar()
@@ -27,10 +25,13 @@ def gui_layout():
     gui.grid_columnconfigure(1, weight=1)
     #frame = Frame(gui)
     #frame.grid(column = 0, row=0)
-    global canvas, speed_led, dist_string, headlight_string, speed_string, coolant_string, temp_string
+    global canvas, speed_led, access_string, dist_string, headlight_string, speed_string, coolant_string, temp_string
     canvas = Canvas(gui)
     speed_led = canvas.create_oval(5, 5, 100, 100, fill="green")
     canvas.pack(side=TOP)
+
+    access_label = Label(gui, textvariable=access_string)
+    access_label.pack(side=TOP)
 
     dist_label = Label(gui, textvariable=dist_string)
     dist_label.pack(side=TOP)
@@ -47,6 +48,7 @@ def gui_layout():
     temp_label = Label(gui, textvariable=temp_string)
     temp_label.pack(side=TOP)
 
+    access_string.set("Scan ID to access system statistics")
     dist_string.set("Distance: N/A")
     headlight_string.set("Headlight: N/A")
     speed_string.set("Motor Speed: N/A")
@@ -61,23 +63,42 @@ def start_process_thread():
     gui.mainloop()
 
 def run_process():
-    with serial.Serial("COM6", 9600, timeout=0.1) as ser:
+    with serial.Serial("COM3", 9600, timeout=0.1) as ser:
         time.sleep(2)
         print("Connection to Arduino established!")
         while True:
             ser_line = ser.readline().decode("utf-8").strip().split(":")
-            print(ser_line)
+            if ser_line[0] != "":
+                print(ser_line)
+            
             if ser_line[0] == "speed":
-                update_speed(int(ser_line[1].split('\r', 1)[0]))
+                update_speed(float(ser_line[1].split('\r', 1)[0]))
             elif ser_line[0] == "distance":
                 global dist_string
                 dist_string.set("Distance: " + str(ser_line[1]))
             elif ser_line[0] == "headlight":
                 global headlight_string
+                light_lvl = ser_line[1]
+                if light_lvl == "0":
+                    light_lvl = "off"
+                elif light_lvl == "127":
+                    light_lvl = "dim"
+                elif light_lvl == "255":
+                    light_lvl = "high"
+                headlight_string.set("Headlight: " + light_lvl)
             elif ser_line[0] == "coolant":
                 global coolant_string
+                coolant_string.set("Coolant: " + str(ser_line[1]))
             elif ser_line[0] == "temp":
                 global temp_string
+                temp_string.set("Temperature: " + str(ser_line[1]))
+            elif ser_line[0] == "access":
+                global access_string
+                status = "denied"
+                if ser_line[1] == "1.00":
+                    status = "granted"
+                access_string.set("Access " + status)
+                
 
 def update_speed(speed):
     global speed_led, speed_string
