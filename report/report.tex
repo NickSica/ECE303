@@ -42,6 +42,7 @@ monitor, zero being off and 255 being full brightness.
   \caption{Basic LED Circuit Setup}\label{fig:lab_1}
 \end{figure}
 \newpage
+
 \section{Lab 2}
 \subsection{Discussion}
 This lab was used to get us acquainted with timers and learn not only how to set up the correct bit values,
@@ -65,6 +66,7 @@ Figure~\ref{fig:lab_2} shows the setup of the circuit. The setup of the hardware
 the previous lab, but this time there are four LEDs and care was taken to connect to them to the correct
 pin corresponding to the timer we want to use for it.
 \newpage
+
 \section{Lab 3}
 \subsection{Discussion}
 This lab was used to get us to get more comfortable with timers in a different way as well as introduce us
@@ -128,6 +130,7 @@ for another color.
     \caption{Photocell and LED Circuit Setup}\label{fig:lab_3_schem}
 \end{figure}
 \clearpage
+
 \section{Lab 4}
 \subsection{Discussion}
 This lab was used to introduce us to using Python or MATLAB in sync with the arduino and teach us how to connect the two and gather data automatically.
@@ -274,6 +277,7 @@ Figure~\ref{fig:lab_3_schem} shows the setup of the circuit. The setup of the ha
 could've been improved with a housing that blocks out light. You could also get different results depending
 on the distance the photocell was from the LED, which could lead to skewed results when swapping the LED out
 for another color.
+
 \section{Lab 5}
 \subsection{Discussion}
 This lab was used to introduce us to building a graphical user interface, or GUI, to assist with testing to not only make it easier, but also more user friendly. Using the
@@ -298,6 +302,31 @@ how it was generated. Another thing to keep note of is that the graphs have very
 \subsection{Hardware}
 Figure~\ref{fig:lab_3_schem} shows the setup of the circuit. The setup of the hardware was the same simple desing as the previous labs and again could've been improved with a
 housing that blocks out light. You could also get different results depending on the distance the photocell was from the LED, which could lead to skewed results.
+\section{Final Project}
+\subsection{Discussion}
+\begin{figure}[!htb]
+  \centering
+  \includegraphics[width=5in]{final_project/gui.png}
+  \caption{Final Project GUI}\label{fig:final_gui}
+\end{figure}
+The final project was a way to tie together everything we learned and introduce us to a few more devices in our kit. We also
+had to create a GUI to replace some LEDs and show the statuses of different parts of the system. Figure~\ref{fig:final_gui}
+shows the GUI before the RFID tag is scanned and the system is accessible by the user. The project was pretty straightforward
+when it came to programming the parts, but issues arose when the motor wires broke. It took a lot of time to get the motor
+up and running again and in the future the motors should be able to handle more than light twisting. Nonetheless, it was an
+interesting project that taught us all the intricacies of the parts as well as gave us a use case for these parts, a smart car.
+
+\subsection{Hardware}
+\begin{figure}
+  \centering
+  \includegraphics[width=5in]{final_project/schematic.png}
+  \caption{Final Project Circuit Setup}\label{fig:final_schem}
+\end{figure}
+Figure~\ref{fig:final_schem} shows the setup of the circuit. The setup of the hardware was a very confusing and tangled
+mess. This was magnified by the fact that a lot of short jumper wires were provided and not very many long or medium jumper wires.
+Needless to say, if there were any hardware bugs it became increasingly difficult to debug. This could have also been
+alleviated by using different breadboards for different subsystems.
+
 \begin{appendices}
   \section{Program Code}
   \subsection{Lab 1 Code}
@@ -317,6 +346,9 @@ housing that blocks out light. You could also get different results depending on
   \subsection{Lab 5 Code}
     \lstinputlisting[caption={Lab 5 Arduino Code}, captionpos=b label={lst:lab_5_arduino}, language=C++]{../lab_5/src/main.cpp}
     \lstinputlisting[caption={Lab 5 Python Code}, captionpos=b label={lst:lab_5_python}, language=Python]{../lab_5/src/frontend.py}
+  \subsection{Final Project Code}
+    \lstinputlisting[caption={Final Project Arduino Code}, captionpos=b label={lst:final_arduino}, language=C++]{../final_project/src/main.cpp}
+    \lstinputlisting[caption={Final Project Python Code}, captionpos=b label={lst:final_python}, language=Python]{../final_project/src/frontend.py}
 \end{appendices}
 \end{document}
 %%% Local Variables:

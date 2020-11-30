@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2020.10.7)  30 OCT 2020 18:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2020.10.7)  30 NOV 2020 14:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -262,174 +262,174 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has b
                    \relax 
 l.30 \newpage
               [1]
-<lab_1/schematic.png, id=142, 1014.03844pt x 914.66719pt>
+<lab_1/schematic.png, id=167, 1014.03844pt x 914.66719pt>
 File: lab_1/schematic.png Graphic file (type png)
 <use lab_1/schematic.png>
 Package pdftex.def Info: lab_1/schematic.png  used on input line 41.
 (pdftex.def)             Requested size: 361.34999pt x 325.93033pt.
  [2 </home/nick/ECE303/report/lab_1/schematic.png>]
-<lab_2/schematic.png, id=149, 328.427pt x 325.215pt>
+<lab_2/schematic.png, id=174, 328.427pt x 325.215pt>
 File: lab_2/schematic.png Graphic file (type png)
 <use lab_2/schematic.png>
-Package pdftex.def Info: lab_2/schematic.png  used on input line 60.
+Package pdftex.def Info: lab_2/schematic.png  used on input line 61.
 (pdftex.def)             Requested size: 234.87749pt x 232.58154pt.
  [3 </home/nick/ECE303/report/lab_2/schematic.png>] [4]
-<lab_3/duty_cycle_led_circuit_curr.png, id=168, 694.449pt x 362.007pt>
+<lab_3/duty_cycle_led_circuit_curr.png, id=192, 694.449pt x 362.007pt>
 File: lab_3/duty_cycle_led_circuit_curr.png Graphic file (type png)
 <use lab_3/duty_cycle_led_circuit_curr.png>
-Package pdftex.def Info: lab_3/duty_cycle_led_circuit_curr.png  used on input line 85.
+Package pdftex.def Info: lab_3/duty_cycle_led_circuit_curr.png  used on input line 87.
 (pdftex.def)             Requested size: 361.34999pt x 188.36624pt.
-<lab_3/duty_cycle_led_res.png, id=169, 691.821pt x 368.577pt>
+<lab_3/duty_cycle_led_res.png, id=193, 691.821pt x 368.577pt>
 File: lab_3/duty_cycle_led_res.png Graphic file (type png)
 <use lab_3/duty_cycle_led_res.png>
-Package pdftex.def Info: lab_3/duty_cycle_led_res.png  used on input line 90.
+Package pdftex.def Info: lab_3/duty_cycle_led_res.png  used on input line 92.
 (pdftex.def)             Requested size: 361.34999pt x 192.51036pt.
-<lab_3/duty_cycle_photo_curr.png, id=170, 694.011pt x 362.007pt>
+<lab_3/duty_cycle_photo_curr.png, id=194, 694.011pt x 362.007pt>
 File: lab_3/duty_cycle_photo_curr.png Graphic file (type png)
 <use lab_3/duty_cycle_photo_curr.png>
-Package pdftex.def Info: lab_3/duty_cycle_photo_curr.png  used on input line 95.
+Package pdftex.def Info: lab_3/duty_cycle_photo_curr.png  used on input line 97.
 (pdftex.def)             Requested size: 361.34999pt x 188.48776pt.
-<lab_3/duty_cycle_photo_res.png, id=171, 695.544pt x 349.743pt>
+<lab_3/duty_cycle_photo_res.png, id=195, 695.544pt x 349.743pt>
 File: lab_3/duty_cycle_photo_res.png Graphic file (type png)
 <use lab_3/duty_cycle_photo_res.png>
-Package pdftex.def Info: lab_3/duty_cycle_photo_res.png  used on input line 100.
+Package pdftex.def Info: lab_3/duty_cycle_photo_res.png  used on input line 102.
 (pdftex.def)             Requested size: 361.34999pt x 181.69662pt.
-<lab_3/photo_res_led_curr.png, id=172, 695.544pt x 349.743pt>
+<lab_3/photo_res_led_curr.png, id=196, 695.544pt x 349.743pt>
 File: lab_3/photo_res_led_curr.png Graphic file (type png)
 <use lab_3/photo_res_led_curr.png>
-Package pdftex.def Info: lab_3/photo_res_led_curr.png  used on input line 105.
+Package pdftex.def Info: lab_3/photo_res_led_curr.png  used on input line 107.
 (pdftex.def)             Requested size: 361.34999pt x 181.69662pt.
  [5 </home/nick/ECE303/report/lab_3/duty_cycle_led_circuit_curr.png>] [6 </home/nick/ECE303/report/lab_3/duty_cycle_led_res.png> </home/nick/ECE303/report/lab_3/duty_cycle_photo_curr.png>]
-<lab_3/schematic.png, id=196, 331.639pt x 325.215pt>
+<lab_3/schematic.png, id=220, 331.639pt x 325.215pt>
 File: lab_3/schematic.png Graphic file (type png)
 <use lab_3/schematic.png>
-Package pdftex.def Info: lab_3/schematic.png  used on input line 127.
+Package pdftex.def Info: lab_3/schematic.png  used on input line 129.
 (pdftex.def)             Requested size: 234.87749pt x 230.33359pt.
  [7 </home/nick/ECE303/report/lab_3/duty_cycle_photo_res.png> </home/nick/ECE303/report/lab_3/photo_res_led_curr.png>] [8 </home/nick/ECE303/report/lab_3/schematic.png>]
-<lab_4/white_duty_cycle_led_circuit_curr.png, id=211, 410.0118pt x 313.4109pt>
+<lab_4/white_duty_cycle_led_circuit_curr.png, id=235, 410.0118pt x 313.4109pt>
 File: lab_4/white_duty_cycle_led_circuit_curr.png Graphic file (type png)
 <use lab_4/white_duty_cycle_led_circuit_curr.png>
-Package pdftex.def Info: lab_4/white_duty_cycle_led_circuit_curr.png  used on input line 140.
+Package pdftex.def Info: lab_4/white_duty_cycle_led_circuit_curr.png  used on input line 143.
 (pdftex.def)             Requested size: 289.07999pt x 220.97383pt.
-<lab_4/white_duty_cycle_led_res.png, id=212, 422.7795pt x 312.6882pt>
+<lab_4/white_duty_cycle_led_res.png, id=236, 422.7795pt x 312.6882pt>
 File: lab_4/white_duty_cycle_led_res.png Graphic file (type png)
 <use lab_4/white_duty_cycle_led_res.png>
-Package pdftex.def Info: lab_4/white_duty_cycle_led_res.png  used on input line 145.
+Package pdftex.def Info: lab_4/white_duty_cycle_led_res.png  used on input line 148.
 (pdftex.def)             Requested size: 289.07999pt x 213.81796pt.
-<lab_4/white_duty_cycle_photo_curr.png, id=213, 416.2752pt x 312.6882pt>
+<lab_4/white_duty_cycle_photo_curr.png, id=237, 416.2752pt x 312.6882pt>
 File: lab_4/white_duty_cycle_photo_curr.png Graphic file (type png)
 <use lab_4/white_duty_cycle_photo_curr.png>
-Package pdftex.def Info: lab_4/white_duty_cycle_photo_curr.png  used on input line 150.
+Package pdftex.def Info: lab_4/white_duty_cycle_photo_curr.png  used on input line 153.
 (pdftex.def)             Requested size: 289.07999pt x 217.15305pt.
-<lab_4/white_duty_cycle_photo_res.png, id=214, 413.1435pt x 315.0972pt>
+<lab_4/white_duty_cycle_photo_res.png, id=238, 413.1435pt x 315.0972pt>
 File: lab_4/white_duty_cycle_photo_res.png Graphic file (type png)
 <use lab_4/white_duty_cycle_photo_res.png>
-Package pdftex.def Info: lab_4/white_duty_cycle_photo_res.png  used on input line 155.
+Package pdftex.def Info: lab_4/white_duty_cycle_photo_res.png  used on input line 158.
 (pdftex.def)             Requested size: 289.07999pt x 220.48479pt.
-<lab_4/white_photo_res_led_curr.png, id=215, 417.4797pt x 313.4109pt>
+<lab_4/white_photo_res_led_curr.png, id=239, 417.4797pt x 313.4109pt>
 File: lab_4/white_photo_res_led_curr.png Graphic file (type png)
 <use lab_4/white_photo_res_led_curr.png>
-Package pdftex.def Info: lab_4/white_photo_res_led_curr.png  used on input line 160.
+Package pdftex.def Info: lab_4/white_photo_res_led_curr.png  used on input line 163.
 (pdftex.def)             Requested size: 289.07999pt x 217.0189pt.
-<lab_4/red_duty_cycle_led_circuit_curr.png, id=216, 410.0118pt x 312.6882pt>
+<lab_4/red_duty_cycle_led_circuit_curr.png, id=240, 410.0118pt x 312.6882pt>
 File: lab_4/red_duty_cycle_led_circuit_curr.png Graphic file (type png)
 <use lab_4/red_duty_cycle_led_circuit_curr.png>
-Package pdftex.def Info: lab_4/red_duty_cycle_led_circuit_curr.png  used on input line 165.
+Package pdftex.def Info: lab_4/red_duty_cycle_led_circuit_curr.png  used on input line 168.
 (pdftex.def)             Requested size: 289.07999pt x 220.46428pt.
-<lab_4/red_duty_cycle_led_res.png, id=217, 416.2752pt x 312.6882pt>
+<lab_4/red_duty_cycle_led_res.png, id=241, 416.2752pt x 312.6882pt>
 File: lab_4/red_duty_cycle_led_res.png Graphic file (type png)
 <use lab_4/red_duty_cycle_led_res.png>
-Package pdftex.def Info: lab_4/red_duty_cycle_led_res.png  used on input line 170.
+Package pdftex.def Info: lab_4/red_duty_cycle_led_res.png  used on input line 173.
 (pdftex.def)             Requested size: 289.07999pt x 217.15305pt.
-<lab_4/red_duty_cycle_photo_curr.png, id=218, 416.2752pt x 312.6882pt>
+<lab_4/red_duty_cycle_photo_curr.png, id=242, 416.2752pt x 312.6882pt>
 File: lab_4/red_duty_cycle_photo_curr.png Graphic file (type png)
 <use lab_4/red_duty_cycle_photo_curr.png>
-Package pdftex.def Info: lab_4/red_duty_cycle_photo_curr.png  used on input line 175.
+Package pdftex.def Info: lab_4/red_duty_cycle_photo_curr.png  used on input line 178.
 (pdftex.def)             Requested size: 289.07999pt x 217.15305pt.
-<lab_4/red_duty_cycle_photo_res.png, id=219, 413.1435pt x 312.6882pt>
+<lab_4/red_duty_cycle_photo_res.png, id=243, 413.1435pt x 312.6882pt>
 File: lab_4/red_duty_cycle_photo_res.png Graphic file (type png)
 <use lab_4/red_duty_cycle_photo_res.png>
-Package pdftex.def Info: lab_4/red_duty_cycle_photo_res.png  used on input line 180.
+Package pdftex.def Info: lab_4/red_duty_cycle_photo_res.png  used on input line 183.
 (pdftex.def)             Requested size: 289.07999pt x 218.79912pt.
-<lab_4/red_photo_res_led_curr.png, id=220, 410.0118pt x 312.6882pt>
+<lab_4/red_photo_res_led_curr.png, id=244, 410.0118pt x 312.6882pt>
 File: lab_4/red_photo_res_led_curr.png Graphic file (type png)
 <use lab_4/red_photo_res_led_curr.png>
-Package pdftex.def Info: lab_4/red_photo_res_led_curr.png  used on input line 185.
+Package pdftex.def Info: lab_4/red_photo_res_led_curr.png  used on input line 188.
 (pdftex.def)             Requested size: 289.07999pt x 220.46428pt.
-<lab_4/yellow_duty_cycle_led_circuit_curr.png, id=221, 416.2752pt x 312.6882pt>
+<lab_4/yellow_duty_cycle_led_circuit_curr.png, id=245, 416.2752pt x 312.6882pt>
 File: lab_4/yellow_duty_cycle_led_circuit_curr.png Graphic file (type png)
 <use lab_4/yellow_duty_cycle_led_circuit_curr.png>
-Package pdftex.def Info: lab_4/yellow_duty_cycle_led_circuit_curr.png  used on input line 190.
+Package pdftex.def Info: lab_4/yellow_duty_cycle_led_circuit_curr.png  used on input line 193.
 (pdftex.def)             Requested size: 289.07999pt x 217.15305pt.
-<lab_4/yellow_duty_cycle_led_res.png, id=222, 416.2752pt x 312.6882pt>
+<lab_4/yellow_duty_cycle_led_res.png, id=246, 416.2752pt x 312.6882pt>
 File: lab_4/yellow_duty_cycle_led_res.png Graphic file (type png)
 <use lab_4/yellow_duty_cycle_led_res.png>
-Package pdftex.def Info: lab_4/yellow_duty_cycle_led_res.png  used on input line 195.
+Package pdftex.def Info: lab_4/yellow_duty_cycle_led_res.png  used on input line 198.
 (pdftex.def)             Requested size: 289.07999pt x 217.15305pt.
-<lab_4/yellow_duty_cycle_photo_curr.png, id=223, 416.2752pt x 312.6882pt>
+<lab_4/yellow_duty_cycle_photo_curr.png, id=247, 416.2752pt x 312.6882pt>
 File: lab_4/yellow_duty_cycle_photo_curr.png Graphic file (type png)
 <use lab_4/yellow_duty_cycle_photo_curr.png>
-Package pdftex.def Info: lab_4/yellow_duty_cycle_photo_curr.png  used on input line 200.
+Package pdftex.def Info: lab_4/yellow_duty_cycle_photo_curr.png  used on input line 203.
 (pdftex.def)             Requested size: 289.07999pt x 217.15305pt.
-<lab_4/yellow_duty_cycle_photo_res.png, id=224, 413.1435pt x 312.6882pt>
+<lab_4/yellow_duty_cycle_photo_res.png, id=248, 413.1435pt x 312.6882pt>
 File: lab_4/yellow_duty_cycle_photo_res.png Graphic file (type png)
 <use lab_4/yellow_duty_cycle_photo_res.png>
-Package pdftex.def Info: lab_4/yellow_duty_cycle_photo_res.png  used on input line 205.
+Package pdftex.def Info: lab_4/yellow_duty_cycle_photo_res.png  used on input line 208.
 (pdftex.def)             Requested size: 289.07999pt x 218.79912pt.
-<lab_4/yellow_photo_res_led_curr.png, id=225, 416.2752pt x 312.6882pt>
+<lab_4/yellow_photo_res_led_curr.png, id=249, 416.2752pt x 312.6882pt>
 File: lab_4/yellow_photo_res_led_curr.png Graphic file (type png)
 <use lab_4/yellow_photo_res_led_curr.png>
-Package pdftex.def Info: lab_4/yellow_photo_res_led_curr.png  used on input line 210.
+Package pdftex.def Info: lab_4/yellow_photo_res_led_curr.png  used on input line 213.
 (pdftex.def)             Requested size: 289.07999pt x 217.15305pt.
-<lab_4/blue_duty_cycle_led_circuit_curr.png, id=226, 410.0118pt x 312.6882pt>
+<lab_4/blue_duty_cycle_led_circuit_curr.png, id=250, 410.0118pt x 312.6882pt>
 File: lab_4/blue_duty_cycle_led_circuit_curr.png Graphic file (type png)
 <use lab_4/blue_duty_cycle_led_circuit_curr.png>
-Package pdftex.def Info: lab_4/blue_duty_cycle_led_circuit_curr.png  used on input line 215.
+Package pdftex.def Info: lab_4/blue_duty_cycle_led_circuit_curr.png  used on input line 218.
 (pdftex.def)             Requested size: 289.07999pt x 220.46428pt.
-<lab_4/blue_duty_cycle_led_res.png, id=227, 422.7795pt x 313.17pt>
+<lab_4/blue_duty_cycle_led_res.png, id=251, 422.7795pt x 313.17pt>
 File: lab_4/blue_duty_cycle_led_res.png Graphic file (type png)
 <use lab_4/blue_duty_cycle_led_res.png>
-Package pdftex.def Info: lab_4/blue_duty_cycle_led_res.png  used on input line 220.
+Package pdftex.def Info: lab_4/blue_duty_cycle_led_res.png  used on input line 223.
 (pdftex.def)             Requested size: 289.07999pt x 214.14742pt.
-<lab_4/blue_duty_cycle_photo_curr.png, id=228, 416.2752pt x 312.6882pt>
+<lab_4/blue_duty_cycle_photo_curr.png, id=252, 416.2752pt x 312.6882pt>
 File: lab_4/blue_duty_cycle_photo_curr.png Graphic file (type png)
 <use lab_4/blue_duty_cycle_photo_curr.png>
-Package pdftex.def Info: lab_4/blue_duty_cycle_photo_curr.png  used on input line 225.
+Package pdftex.def Info: lab_4/blue_duty_cycle_photo_curr.png  used on input line 228.
 (pdftex.def)             Requested size: 289.07999pt x 217.15305pt.
-<lab_4/blue_duty_cycle_photo_res.png, id=229, 419.4069pt x 312.6882pt>
+<lab_4/blue_duty_cycle_photo_res.png, id=253, 419.4069pt x 312.6882pt>
 File: lab_4/blue_duty_cycle_photo_res.png Graphic file (type png)
 <use lab_4/blue_duty_cycle_photo_res.png>
-Package pdftex.def Info: lab_4/blue_duty_cycle_photo_res.png  used on input line 230.
+Package pdftex.def Info: lab_4/blue_duty_cycle_photo_res.png  used on input line 233.
 (pdftex.def)             Requested size: 289.07999pt x 215.5356pt.
-<lab_4/blue_photo_res_led_curr.png, id=230, 410.0118pt x 312.6882pt>
+<lab_4/blue_photo_res_led_curr.png, id=254, 410.0118pt x 312.6882pt>
 File: lab_4/blue_photo_res_led_curr.png Graphic file (type png)
 <use lab_4/blue_photo_res_led_curr.png>
-Package pdftex.def Info: lab_4/blue_photo_res_led_curr.png  used on input line 235.
+Package pdftex.def Info: lab_4/blue_photo_res_led_curr.png  used on input line 238.
 (pdftex.def)             Requested size: 289.07999pt x 220.46428pt.
-<lab_4/green_duty_cycle_led_circuit_curr.png, id=231, 410.0118pt x 312.6882pt>
+<lab_4/green_duty_cycle_led_circuit_curr.png, id=255, 410.0118pt x 312.6882pt>
 File: lab_4/green_duty_cycle_led_circuit_curr.png Graphic file (type png)
 <use lab_4/green_duty_cycle_led_circuit_curr.png>
-Package pdftex.def Info: lab_4/green_duty_cycle_led_circuit_curr.png  used on input line 240.
+Package pdftex.def Info: lab_4/green_duty_cycle_led_circuit_curr.png  used on input line 243.
 (pdftex.def)             Requested size: 289.07999pt x 220.46428pt.
-<lab_4/green_duty_cycle_led_res.png, id=232, 416.2752pt x 312.6882pt>
+<lab_4/green_duty_cycle_led_res.png, id=256, 416.2752pt x 312.6882pt>
 File: lab_4/green_duty_cycle_led_res.png Graphic file (type png)
 <use lab_4/green_duty_cycle_led_res.png>
-Package pdftex.def Info: lab_4/green_duty_cycle_led_res.png  used on input line 245.
+Package pdftex.def Info: lab_4/green_duty_cycle_led_res.png  used on input line 248.
 (pdftex.def)             Requested size: 289.07999pt x 217.15305pt.
-<lab_4/green_duty_cycle_photo_curr.png, id=233, 416.2752pt x 312.6882pt>
+<lab_4/green_duty_cycle_photo_curr.png, id=257, 416.2752pt x 312.6882pt>
 File: lab_4/green_duty_cycle_photo_curr.png Graphic file (type png)
 <use lab_4/green_duty_cycle_photo_curr.png>
-Package pdftex.def Info: lab_4/green_duty_cycle_photo_curr.png  used on input line 250.
+Package pdftex.def Info: lab_4/green_duty_cycle_photo_curr.png  used on input line 253.
 (pdftex.def)             Requested size: 289.07999pt x 217.15305pt.
-<lab_4/green_duty_cycle_photo_res.png, id=234, 413.1435pt x 312.6882pt>
+<lab_4/green_duty_cycle_photo_res.png, id=258, 413.1435pt x 312.6882pt>
 File: lab_4/green_duty_cycle_photo_res.png Graphic file (type png)
 <use lab_4/green_duty_cycle_photo_res.png>
-Package pdftex.def Info: lab_4/green_duty_cycle_photo_res.png  used on input line 255.
+Package pdftex.def Info: lab_4/green_duty_cycle_photo_res.png  used on input line 258.
 (pdftex.def)             Requested size: 289.07999pt x 218.79912pt.
-<lab_4/green_photo_res_led_curr.png, id=235, 410.0118pt x 312.6882pt>
+<lab_4/green_photo_res_led_curr.png, id=259, 410.0118pt x 312.6882pt>
 File: lab_4/green_photo_res_led_curr.png Graphic file (type png)
 <use lab_4/green_photo_res_led_curr.png>
-Package pdftex.def Info: lab_4/green_photo_res_led_curr.png  used on input line 260.
+Package pdftex.def Info: lab_4/green_photo_res_led_curr.png  used on input line 263.
 (pdftex.def)             Requested size: 252.94499pt x 192.90565pt.
  [9
 
@@ -437,45 +437,56 @@ Package pdftex.def Info: lab_4/green_photo_res_led_curr.png  used on input line 
 Overfull \vbox (18.84518pt too high) has occurred while \output is active []
 
  [19 </home/nick/ECE303/report/lab_4/blue_photo_res_led_curr.png> </home/nick/ECE303/report/lab_4/green_duty_cycle_led_circuit_curr.png>] [20 </home/nick/ECE303/report/lab_4/green_duty_cycle_led_res.png> </home/nick/ECE303/report/lab_4/green_duty_cycle_photo_curr.png>]
-<lab_5/gui.png, id=340, 1445.4pt x 782.925pt>
+<lab_5/gui.png, id=364, 1445.4pt x 782.925pt>
 File: lab_5/gui.png Graphic file (type png)
 <use lab_5/gui.png>
-Package pdftex.def Info: lab_5/gui.png  used on input line 288.
+Package pdftex.def Info: lab_5/gui.png  used on input line 292.
 (pdftex.def)             Requested size: 361.34999pt x 195.73077pt.
  [21 </home/nick/ECE303/report/lab_4/green_duty_cycle_photo_res.png> </home/nick/ECE303/report/lab_4/green_photo_res_led_curr.png>] [22 </home/nick/ECE303/report/lab_5/gui.PNG>]
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 305.
+<final_project/gui.png, id=380, 754.31813pt x 475.7775pt>
+File: final_project/gui.png Graphic file (type png)
+<use final_project/gui.png>
+Package pdftex.def Info: final_project/gui.png  used on input line 309.
+(pdftex.def)             Requested size: 361.34999pt x 227.91322pt.
+<final_project/schematic.png, id=382, 561.297pt x 609.477pt>
+File: final_project/schematic.png Graphic file (type png)
+<use final_project/schematic.png>
+Package pdftex.def Info: final_project/schematic.png  used on input line 322.
+(pdftex.def)             Requested size: 361.34999pt x 392.37032pt.
+ [23]
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 334.
  (/home/nick/ECE303/report/../lab_1/src/blinky.cpp
 LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <10> not available
 (Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 1.
-) (/home/nick/ECE303/report/../lab_1/src/main.cpp) [23]
+) (/home/nick/ECE303/report/../lab_1/src/main.cpp) [24 </home/nick/ECE303/report/final_project/gui.PNG>] [25 </home/nick/ECE303/report/final_project/schematic.png>]
 Overfull \vbox (93.37767pt too high) has occurred while \output is active []
 
- [24] (/home/nick/ECE303/report/../lab_2/src/main.cpp [25] [26] [27]) (/home/nick/ECE303/report/../lab_3/src/main.cpp [28]) (/home/nick/ECE303/report/../lab_4/src/main.cpp [29] [30]) (/usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
+ [26] (/home/nick/ECE303/report/../lab_2/src/main.cpp [27] [28] [29]) (/home/nick/ECE303/report/../lab_3/src/main.cpp [30]) (/home/nick/ECE303/report/../lab_4/src/main.cpp [31] [32]) (/usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
-) (/home/nick/ECE303/report/../lab_4/src/frontend.py [31] [32] [33]) (/home/nick/ECE303/report/../lab_5/src/main.cpp [34] [35]) (/home/nick/ECE303/report/../lab_5/src/frontend.py [36] [37] [38])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 321.
- [39]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 321.
+) (/home/nick/ECE303/report/../lab_4/src/frontend.py [33] [34] [35]) (/home/nick/ECE303/report/../lab_5/src/main.cpp [36] [37]) (/home/nick/ECE303/report/../lab_5/src/frontend.py [38] [39] [40]) (/home/nick/ECE303/report/../final_project/src/main.cpp [41] [42] [43] [44] [45] [46]) [47] (/home/nick/ECE303/report/../final_project/src/frontend.py [48] [49])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 353.
+ [50]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 353.
  (/home/nick/ECE303/report/report.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 321.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 321.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 353.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 353.
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: 216AC81A16C4A4AC88260A54E95E5090;1151.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 321.
+(rerunfilecheck)             Checksum: 75C023472BB959960DB76E37136D9703;1391.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 353.
  ) 
 Here is how much of TeX's memory you used:
- 9054 strings out of 480478
- 134815 string characters out of 5905959
- 684667 words of memory out of 5000000
- 24178 multiletter control sequences out of 15000+600000
+ 9680 strings out of 480478
+ 144023 string characters out of 5905959
+ 684872 words of memory out of 5000000
+ 24395 multiletter control sequences out of 15000+600000
  538617 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  39i,7n,67p,356b,2140s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmitt10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on /home/nick/ECE303/report/report.pdf (40 pages, 4011865 bytes).
+Output written on /home/nick/ECE303/report/report.pdf (51 pages, 4546152 bytes).
 PDF statistics:
- 1254 PDF objects out of 1440 (max. 8388607)
- 1123 compressed objects within 12 object streams
- 728 named destinations out of 1000 (max. 500000)
- 339 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1802 PDF objects out of 2073 (max. 8388607)
+ 1651 compressed objects within 17 object streams
+ 1130 named destinations out of 1200 (max. 500000)
+ 381 words of extra memory for PDF output out of 10000 (max. 10000000)
 

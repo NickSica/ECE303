@@ -232,6 +232,12 @@ INPUT /home/nick/ECE303/report/lab_4/green_photo_res_led_curr.png
 INPUT /home/nick/ECE303/report/lab_5/gui.PNG
 INPUT /home/nick/ECE303/report/lab_5/gui.PNG
 INPUT /home/nick/ECE303/report/lab_5/gui.PNG
+INPUT /home/nick/ECE303/report/final_project/gui.PNG
+INPUT /home/nick/ECE303/report/final_project/gui.PNG
+INPUT /home/nick/ECE303/report/final_project/gui.PNG
+INPUT /home/nick/ECE303/report/final_project/schematic.png
+INPUT /home/nick/ECE303/report/final_project/schematic.png
+INPUT /home/nick/ECE303/report/final_project/schematic.png
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /home/nick/ECE303/report/../lab_1/src/blinky.cpp
@@ -263,6 +269,12 @@ INPUT /home/nick/ECE303/report/../lab_5/src/main.cpp
 INPUT /home/nick/ECE303/report/../lab_5/src/frontend.py
 INPUT /home/nick/ECE303/report/../lab_5/src/frontend.py
 INPUT /home/nick/ECE303/report/../lab_5/src/frontend.py
+INPUT /home/nick/ECE303/report/../final_project/src/main.cpp
+INPUT /home/nick/ECE303/report/../final_project/src/main.cpp
+INPUT /home/nick/ECE303/report/../final_project/src/main.cpp
+INPUT /home/nick/ECE303/report/../final_project/src/frontend.py
+INPUT /home/nick/ECE303/report/../final_project/src/frontend.py
+INPUT /home/nick/ECE303/report/../final_project/src/frontend.py
 INPUT /home/nick/ECE303/report/report.aux
 INPUT /home/nick/ECE303/report/report.out
 INPUT /home/nick/ECE303/report/report.out
