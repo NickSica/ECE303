@@ -4,7 +4,6 @@
 #include <SPI.h>
 #include <MFRC522.h>
 #include <IRremote.h>
-//#include <IRremoteInt.h>
 #include <LiquidCrystal.h>
 
 #define FWD_PIN 6

@@ -79,11 +79,11 @@ def run_process():
             elif ser_line[0] == "headlight":
                 global headlight_string
                 light_lvl = ser_line[1]
-                if light_lvl == "0":
+                if light_lvl == "0.00":
                     light_lvl = "off"
-                elif light_lvl == "127":
+                elif light_lvl == "127.00":
                     light_lvl = "dim"
-                elif light_lvl == "255":
+                elif light_lvl == "255.00":
                     light_lvl = "high"
                 headlight_string.set("Headlight: " + light_lvl)
             elif ser_line[0] == "coolant":
