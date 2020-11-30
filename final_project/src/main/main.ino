@@ -1,4 +1,3 @@
-#include <Arduino.h>
 #include <string.h>
 #include <dht.h>
 #include <SPI.h>
@@ -78,7 +77,7 @@ void setup()
     pinMode(LCD_PIN, OUTPUT);
     analogWrite(LCD_PIN, 120);
     lcd.begin(16, 2);
-    
+
     Serial.begin(9600);
 
     // IR Setup
@@ -164,9 +163,9 @@ void ultrasonicControl()
 int sensorControl()
 {
     digitalWrite(MOISTURE_POWER, HIGH);
-	delay(10);
-	moisture = analogRead(MOISTURE_PIN);
-	digitalWrite(MOISTURE_POWER, LOW);
+  delay(10);
+  moisture = analogRead(MOISTURE_PIN);
+  digitalWrite(MOISTURE_POWER, LOW);
     sendData("coolant", moisture);
 
     DHT.read11(DHT11_PIN);
